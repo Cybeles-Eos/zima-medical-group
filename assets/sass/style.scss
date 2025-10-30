@@ -1,0 +1,13 @@
+// Components
+@use "component/global" as *;
+@use "component/typography" as *;
+@use "component/color" as *;
+@use "component/button" as *;
+@use "component/header" as *;
+@use "component/mobile" as *;
+@use "component/footer" as *;
+
+// Pages 
+@use "pages/home" as *;
+@use "pages/about" as *;
+@use "pages/services" as *;
