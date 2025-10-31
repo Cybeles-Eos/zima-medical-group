@@ -1306,4 +1306,70 @@ footer p {
   }
 }
 
+.page--procedures .section--hero {
+  width: 100%;
+  padding-block: 8.5rem;
+  padding-inline: 1rem;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../images/procedure-hero.png);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.2rem;
+}
+.page--procedures .section--hero h1, .page--procedures .section--hero p {
+  margin-bottom: 10px;
+  color: #fff;
+  max-width: 650px;
+  text-align: center;
+}
+.page--procedures .section--procedure-list {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  justify-content: center;
+  gap: 1.5rem;
+  row-gap: 1.5rem;
+  padding: 70px 1rem;
+}
+.page--procedures .section--procedure-list .service-box {
+  padding: 1.5rem 1.5rem;
+  box-shadow: 0 0 7px 0 rgba(183, 183, 183, 0.5);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.page--procedures .section--procedure-list .service-box img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+.page--procedures .section--procedure-list .service-box h4 {
+  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+.page--procedures .section--procedure-list .service-box a {
+  color: #E81238;
+  font-size: 15px;
+  text-decoration: none;
+}
+@media (max-width: 892px) {
+  .page--procedures .section--procedure-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 632px) {
+  .page--procedures .section--procedure-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
